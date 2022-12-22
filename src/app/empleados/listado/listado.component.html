@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 class="title border">Listado de empleados</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Dirección</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let empleado of empleados;">
+                <td>{{ empleado.id }}</td>
+                <td>{{ empleado.nombre }}</td>
+                <td>{{ empleado.email }}</td>
+                <td>{{ empleado.direccion }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="resumen">En total hay <b>{{ empleados.length }}</b> empleados</p>
+</div>
