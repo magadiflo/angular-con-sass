@@ -1,1 +1,11 @@
+//* Así es como organizaría los archivos parciales dentro del styles.scss
+@import 'scss/3-helpers/helpers-dir';
+@import 'scss/0-base/base_dir';
+@import 'scss/1-pages/pages-dir';
+@import 'scss/2-modules/modules-dir';
 
+body {
+    background-color: $background;
+    color: $textColor;
+    font-family: 'Chivo Mono', monospace;
+}

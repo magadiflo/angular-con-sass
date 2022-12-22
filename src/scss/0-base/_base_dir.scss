@@ -1,0 +1,12 @@
+/*
+* La estructura SCSS incluye tener un archivo de directorio (es decir, _base-dir.scss) en cada carpeta 
+* que incluye todas las hojas de estilo individuales dentro de esa carpeta. Esos archivos de directorio, 
+* luego se acumulan en la carpeta "principal" styles.scss que ayuda a mantener las cosas limpias y organizadas, 
+* y fáciles de leer.
+*
+* Según la autora de esta estructura, le gusta configurar sus archivos de directorio para que se vean así:
+*/
+
+//* Se importa todos los archivos de este directorio 0-base/
+@import './global';
+@import './typography';
