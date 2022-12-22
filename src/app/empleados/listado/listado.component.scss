@@ -1,0 +1,16 @@
+
+//* Usando estilos parciales en los componentes
+@import '../../../scss/3-helpers/constants';
+
+.container {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: $primary;
+}
+
+.resumen {
+    background-color: $warning;
+}
